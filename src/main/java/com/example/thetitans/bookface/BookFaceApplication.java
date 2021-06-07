@@ -34,7 +34,5 @@ public class BookFaceApplication {
         urlBasedCorsConfigurationSource.registerCorsConfiguration("/**", corsConfiguration);
         return new CorsFilter(urlBasedCorsConfigurationSource);
     }
-
-    //Test commit
     
 }
